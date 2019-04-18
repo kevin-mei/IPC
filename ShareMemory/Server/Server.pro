@@ -7,6 +7,8 @@ TARGET = Server
 CONFIG += console
 CONFIG -= app_bundle
 
+LIBS += -lrt
+
 TEMPLATE = app
 
 SOURCES += main.cpp
@@ -25,4 +27,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 HEADERS += \
     anonymousmapping.h \
     filetomapp.h \
-    pagesize.h
+    pagesize.h \
+    systemv_write.h \
+    pipe_write.h \
+    socket_tcp.h \
+    messagequeue.h

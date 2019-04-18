@@ -24,4 +24,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 HEADERS += \
     filetomapp.h \
-    pagesize.h
+    pagesize.h \
+    systemv_read.h \
+    pipe_read.h \
+    socket_tcp.h
